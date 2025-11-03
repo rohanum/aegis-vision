@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: aegis-vision-ai
+    name: aegis-vision
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python app.py"
